@@ -1,107 +1,139 @@
-# Start Project Template
+Claro! Abaixo está o README formatado no estilo do modelo original, mas agora com base no **Bootcamp Suzano - Desenvolvedor Python**:
 
-## Requisitos
+---
 
-- Python 3.12
-- Poetry
+# 🐍 Bootcamp Suzano - Desenvolvedor Python
 
-## Como usar
+<a href="https://www.dio.me/bootcamp/suzano-python-developer">
+  <img src="img/badge.webp" alt="Suzano Bootcamp logo" style="width: 40%; margin: 0 5px;" />
+</a>
+<a href="https://www.dio.me/users/seu_usuario_dio">
+  <img src="img/certificado_suzano.jpg" alt="seu badge DIO" style="width: 26%; margin: 0 5px;" />
+</a>
 
-### 1. Instale as dependências
+## 🎯 Sobre o Bootcamp
 
-```bash
-poetry install
-```
+Este bootcamp gratuito é o ponto de partida ideal para quem quer dominar **Python**, uma das linguagens mais requisitadas do mercado. Ao longo da jornada, você irá construir **7 projetos práticos**, aprenderá a utilizar **IA com Microsoft Copilot e Azure**, e se destacará com habilidades muito procuradas por recrutadores.
 
-### 2. Rodar os comandos de formatação e linting
+### ✨ Destaques do Programa
 
-```bash
-poetry run task format
-```
+- 👩‍💻 Trilhas práticas para desenvolver habilidades em Python  
+- 🤖 Aplicações reais com Microsoft Copilot Studio e Azure AI  
+- 🧠 Fundamentos de IA, POO, Git e projetos colaborativos  
+- 📈 Acesso a ranking com premiações e reconhecimento  
+- 🎓 Certificados para cada curso e projeto finalizado  
+- 💼 Portfólio com projetos completos para destacar sua carreira  
 
-### 3. Rodar os testes
+## 🛠️ Estrutura do Bootcamp
 
-```bash
-poetry run pytest
-```
+### 📌 Atividades Principais
 
-## Estrutura do Projeto
+1. **Mentorias (Ao Vivo)** 🎥  
+   - Interações com profissionais da Suzano  
+   - Sessões de perguntas e respostas sobre carreira e tecnologia  
 
-- `src/`: Código fonte do projeto
-- `tests/`: Testes automatizados
+2. **Desafios de Código** 💻  
+   - Testes práticos para consolidar seu aprendizado  
+   - Foco em lógica e pensamento computacional  
 
-## Integração Contínua (CI)
+3. **Desafios de Projeto** 🏗️  
+   - Projetos práticos e aplicáveis no mercado  
+   - Destaque no portfólio e GitHub  
 
-Este projeto utiliza GitHub Actions para Integração Contínua (CI). A configuração do CI está definida no arquivo `.github/workflows/python-ci.yml`, que automatiza o processo de teste e verificação de código. Abaixo estão os detalhes sobre como o CI foi configurado:
+4. **Ranking e Premiações** 🏆  
+   - Ganhe pontos por interações, quizzes e qualidade de código  
 
-### 1. Configuração do CI
+## 📚 Conteúdo Programático
 
-O arquivo `.github/workflows/python-ci.yml` define um workflow que executa automaticamente o pipeline de CI para cada push para a branch `main` e para cada pull request. O workflow inclui os seguintes passos:
+### 🚀 Introdução ao Ambiente Python e Projetos Colaborativos
 
-- **Verificação de Código**: Usa ferramentas de formatação e linting (`isort`, `black`, `flake8`) para garantir que o código esteja bem formatado e siga as melhores práticas.
-- **Execução de Testes**: Executa os testes automatizados com `pytest` para garantir que o código esteja funcionando conforme o esperado.
+- Introdução ao Python com a Suzano  
+- Ambiente de Desenvolvimento e Primeiros Passos  
+- Conhecendo a Linguagem Python  
+- Versionamento com Git & GitHub  
+- Projetos Open Source e portfólio  
 
-### 2. Como Funciona
+### 🧮 Sintaxe Básica com Python
 
-- **Push para a Branch `main`**: Sempre que você faz um push para a branch `main`, o GitHub Actions executa o pipeline de CI definido no arquivo `python-ci.yml`. Isso inclui a instalação das dependências, formatação e linting do código, e a execução dos testes.
-- **Pull Requests**: Sempre que um pull request é criado ou atualizado, o pipeline de CI é executado para garantir que as mudanças propostas não quebrem o código existente e estejam em conformidade com as regras de formatação e linting.
+- Operadores, estruturas condicionais e laços  
+- Manipulação de strings e funções  
+- Projeto: Sistema Bancário com Python  
 
-### 3. Arquivo de Workflow CI
+### 📦 Trabalhando com Coleções
 
-Aqui está a configuração do workflow para referência:
+- Listas, tuplas, conjuntos e dicionários  
+- Data, hora e fuso horário  
+- Projeto: Otimização do Sistema Bancário  
+- Desafios de código e lógica  
 
-```yaml
-name: Python CI
+### 🧱 Programação Orientada a Objetos com Python
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+- Fundamentos de POO: herança, encapsulamento, polimorfismo  
+- Classes abstratas e interfaces  
+- Projeto: Processamento de Imagens em Python  
+- Sistema bancário com POO  
 
-jobs:
-  test:
-    runs-on: ubuntu-latest
+### 🤖 Produtividade com Microsoft Copilot Studio
 
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.12  # Atualize para a versão atual do Python que você está usando
+- Criação de copilotos personalizados  
+- Tópicos, entidades e variáveis  
+- Geração de respostas com IA  
+- Projetos práticos com fluxos de conversa  
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install poetry
-          poetry install
+### 🧠 Integração com Serviços de IA
 
-      - name: Run Linting
-        run: |
-          poetry run task format
+- Fundamentos de IA e aprendizado de máquina  
+- Processamento de linguagem natural  
+- Análise de sentimentos com Azure  
+- Serviços Azure OpenAI  
 
-      - name: List installed packages
-        run: |
-          poetry show
+## 🔧 Ferramentas de Aprendizado
 
-      - name: Run Tests
-        run: |
-          poetry run pytest
-```
+- **Fórum**: 💬 Tire dúvidas com a comunidade  
+- **Salas de Estudo**: 👥 Faça networking e troque experiências  
+- **Lista de Participantes**: 📋 Acompanhe quem está na mesma jornada  
 
-### 4. Como Replicar a Configuração
+## 🗓️ Informações Importantes
 
-Para replicar esta configuração de CI em outro projeto, siga estes passos:
+- ✅ Bootcamp totalmente gratuito  
+- 📘 Conteúdo completo para quem busca dominar Python e IA aplicada  
+- 📈 Ganhe destaque com projetos reais e certificados  
 
-1. **Crie o Arquivo de Workflow**:
-  - No repositório do seu projeto, crie um diretório `.github/workflows/` se ainda não existir.
-  - Adicione um arquivo chamado `python-ci.yml` dentro deste diretório.
+## 📂 Índice de Projetos e Desafios
 
-2. **Adicione a Configuração ao Arquivo de Workflow**:
-  - Copie e cole a configuração YAML fornecida acima no arquivo `python-ci.yml`.
+### 🧪 Projetos Práticos
 
-3. **Configuração do Projeto**:
-  - Certifique-se de que o seu projeto utiliza `poetry` e que os comandos de formatação, linting e testes estão configurados corretamente no seu `pyproject.toml`.
+- **Sistema Bancário com Python**  
+- **Otimizando Funções em Projetos Reais**  
+- **Processamento de Imagens com Python**  
+- **Criação de Copilotos no Microsoft Copilot Studio**  
+- **Análise de Sentimentos com Azure AI**  
 
-4. **Commit e Push**:
-  - Faça um commit e push das alterações para o repositório remoto. O GitHub Actions começará a executar o pipeline automaticamente com base na configuração fornecida..
+### 💻 Desafios de Código
+
+- **Gestão de Transações Bancárias**  
+- **Fundamentos de POO Aplicados a Bancos**  
+- **Pensamento Computacional com Python**  
+
+## 🏁 Conclusão e Opinião Pessoal
+
+Participar do bootcamp **Suzano - Desenvolvedor Python** foi uma jornada de aprendizado prática e completa. Desenvolvi habilidades essenciais, desde a sintaxe básica até o uso de IA generativa e copilotos personalizados.
+
+---
+
+## 📫 Contatos e Redes Sociais
+
+Vamos nos conectar? 🤝
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juliookuda/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jcnok)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](julio.okuda@gmail.com)
+
+### 🎯 Habilidades em Desenvolvimento
+
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python)  
+![GitHub](https://img.shields.io/badge/Git_&_GitHub-181717?style=for-the-badge&logo=github)  
+![Microsoft Azure](https://img.shields.io/badge/Azure_AI-0089D6?style=for-the-badge&logo=microsoftazure)  
+![Copilot Studio](https://img.shields.io/badge/Microsoft_Copilot_Studio-0078D4?style=for-the-badge&logo=microsoft)
+
+---
