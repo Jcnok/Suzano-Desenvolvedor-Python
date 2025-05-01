@@ -1,7 +1,3 @@
-Claro! Abaixo está o README formatado no estilo do modelo original, mas agora com base no **Bootcamp Suzano - Desenvolvedor Python**:
-
----
-
 # 🐍 Bootcamp Suzano - Desenvolvedor Python
 
 <a href="https://www.dio.me/bootcamp/suzano-python-developer">
@@ -13,7 +9,7 @@ Claro! Abaixo está o README formatado no estilo do modelo original, mas agora c
 
 ## 🎯 Sobre o Bootcamp
 
-Este bootcamp gratuito é o ponto de partida ideal para quem quer dominar **Python**, uma das linguagens mais requisitadas do mercado. Ao longo da jornada, você irá construir **7 projetos práticos**, aprenderá a utilizar **IA com Microsoft Copilot e Azure**, e se destacará com habilidades muito procuradas por recrutadores.
+Este bootcamp gratuito é o ponto de partida ideal para quem quer dominar **Python**, uma das linguagens mais requisitadas do mercado. Ao longo da jornada, você irá construir **8 desafios de projeto**, aprenderá a utilizar **IA com Microsoft Copilot e Azure**, e se destacará com habilidades muito procuradas por recrutadores.
 
 ### ✨ Destaques do Programa
 
@@ -43,55 +39,6 @@ Este bootcamp gratuito é o ponto de partida ideal para quem quer dominar **Pyth
 4. **Ranking e Premiações** 🏆  
    - Ganhe pontos por interações, quizzes e qualidade de código  
 
-## 📚 Conteúdo Programático
-
-### 🚀 Introdução ao Ambiente Python e Projetos Colaborativos
-
-- Introdução ao Python com a Suzano  
-- Ambiente de Desenvolvimento e Primeiros Passos  
-- Conhecendo a Linguagem Python  
-- Versionamento com Git & GitHub  
-- Projetos Open Source e portfólio  
-
-### 🧮 Sintaxe Básica com Python
-
-- Operadores, estruturas condicionais e laços  
-- Manipulação de strings e funções  
-- Projeto: Sistema Bancário com Python  
-
-### 📦 Trabalhando com Coleções
-
-- Listas, tuplas, conjuntos e dicionários  
-- Data, hora e fuso horário  
-- Projeto: Otimização do Sistema Bancário  
-- Desafios de código e lógica  
-
-### 🧱 Programação Orientada a Objetos com Python
-
-- Fundamentos de POO: herança, encapsulamento, polimorfismo  
-- Classes abstratas e interfaces  
-- Projeto: Processamento de Imagens em Python  
-- Sistema bancário com POO  
-
-### 🤖 Produtividade com Microsoft Copilot Studio
-
-- Criação de copilotos personalizados  
-- Tópicos, entidades e variáveis  
-- Geração de respostas com IA  
-- Projetos práticos com fluxos de conversa  
-
-### 🧠 Integração com Serviços de IA
-
-- Fundamentos de IA e aprendizado de máquina  
-- Processamento de linguagem natural  
-- Análise de sentimentos com Azure  
-- Serviços Azure OpenAI  
-
-## 🔧 Ferramentas de Aprendizado
-
-- **Fórum**: 💬 Tire dúvidas com a comunidade  
-- **Salas de Estudo**: 👥 Faça networking e troque experiências  
-- **Lista de Participantes**: 📋 Acompanhe quem está na mesma jornada  
 
 ## 🗓️ Informações Importantes
 
@@ -103,21 +50,18 @@ Este bootcamp gratuito é o ponto de partida ideal para quem quer dominar **Pyth
 
 ### 🧪 Projetos Práticos
 
-- **Sistema Bancário com Python**  
-- **Otimizando Funções em Projetos Reais**  
-- **Processamento de Imagens com Python**  
-- **Criação de Copilotos no Microsoft Copilot Studio**  
-- **Análise de Sentimentos com Azure AI**  
-
-### 💻 Desafios de Código
-
-- **Gestão de Transações Bancárias**  
-- **Fundamentos de POO Aplicados a Bancos**  
-- **Pensamento Computacional com Python**  
+- [**Contribuindo em um Projeto Open Source no GitHub**](https://github.com/Jcnok/dio-lab-open-source/tree/feat/community/Jcnok)
+- [**Sistema Bancário com Python**](https://github.com/Jcnok/Potencia_Tech_powered_by_iFood-Ciencias_de_Dados_com_Python/tree/main/DP2#desafio---criando-um-sistema-banc%C3%A1rio-simples)  
+- [**Otimizando o Sistema Bancário com Funções Python**](https://github.com/Jcnok/Potencia_Tech_powered_by_iFood-Ciencias_de_Dados_com_Python/tree/main/DP3#desafio---otimizando-o-sistema-banc%C3%A1rio)  
+- [**Modelando o Sistema Bancário em POO com Python**](https://github.com/Jcnok/NTT-Data-Engenharia_de_Dados_com_Python/tree/master/desafios_de_projeto/desafio4#resolu%C3%A7%C3%A3o-2---c%C3%B3digo-baseado-em-poo)
+- [**Criando um Pacote de Processamento de Imagens com Python**](Em construção)  
+- [**Criação de Copilotos no Microsoft Copilot Studio**](https://github.com/Jcnok/Suzano-Desenvolvedor-Python/tree/master/desafio_1#desafio-microsoft-copilot-studio-criando-meu-primeiro-copiloto-)  
+- [**Criando um Copiloto com Fluxo de Conversa Personalizado no Microsoft Copilot Studio**](Em construção)
+- [**Análise de Sentimentos com Language Studio no Azure AI**](Em construção)  
 
 ## 🏁 Conclusão e Opinião Pessoal
 
-Participar do bootcamp **Suzano - Desenvolvedor Python** foi uma jornada de aprendizado prática e completa. Desenvolvi habilidades essenciais, desde a sintaxe básica até o uso de IA generativa e copilotos personalizados.
+Participar do bootcamp **Suzano - Desenvolvedor Python** foi uma jornada de aprendizado prática e completa. Desenvolvi habilidades essenciais, desde a sintaxe básica até o uso de IA generativa e copilotos(Agentes) personalizados.
 
 ---
 
